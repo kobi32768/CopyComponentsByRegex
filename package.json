@@ -1,12 +1,12 @@
 {
-  "name": "taremin.copy-components-by-regex",
-  "displayName": "CopyComponentsByRegex",
-  "version": "0.0.2-beta",
-  "unity": "2017.1",
+  "name": "org.azuretek.copy-components-by-regex",
+  "displayName": "Copy Components By Regex",
+  "version": "0.1.0",
+  "unity": "2022.3",
   "description": "Copy components by Regex",
   "author": {
-    "name": "Taremin",
-    "email": "taremin.vr@gmail.com",
-    "url": "https://twitter.com/Taremin_VR"
+    "name": "kobi32768",
+    "email": "kobi32768@azuretek.org",
+    "url": "https://azuretek.org/"
   }
 }
