@@ -4,6 +4,8 @@
 
 これは正規表現でマッチする、構造が同じ場所にあるコンポーネントを一括でコピーするUnityエディタ拡張です。
 
+ボーン名が異なっている場合でも Humanoid に従ってコピーします。
+
 ## インストール(UPM)
 
 1. Unityのメニューバーから `Window` -> `Package Manager` を開く
@@ -53,17 +55,17 @@ Cloth コンポーネントのコピーは同じモデル同士で Cloth 部分�
 「一番近い頂点からコピーする」設定はコピー元とコピー先のそれぞれの頂点の座標を比較して行うのですが、Unity(5.6.3p1, 2017.4.15f1) の Cloth の追加時の頂点座標がおかしいため、あらかじめ Cloth をコピー先に追加しておいてください。
 
 
-## より詳しい説明
-
-https://taremin.kibe.la/shared/entries/95c1d6cf-9fcd-4a57-8849-677529e50e77 により詳しい説明を書きましたので、もしよければそちらも参考にしてください。
-
-
 ## ライセンス
 
 [MIT](./LICENSE)
+
+### フォーク
+
+このリポジトリは [Taremin/CopyComponentsByRegex](https://github.com/Taremin/CopyComponentsByRegex) をベースに改変したフォークです。
 
 ### 利用ライブラリ
 
 `CopyComponentsByRegex` では以下のコードを改変して利用しています。
 
 - KDTree.cs - A Stark, September 2009. https://forum.unity.com/threads/point-nearest-neighbour-search-class.29923/
+- Modular Avatar - bdunderscore. https://github.com/bdunderscore/modular-avatar/
