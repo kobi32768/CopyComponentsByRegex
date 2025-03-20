@@ -8,7 +8,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace CopyComponentsByRegex {
+namespace org.azuretek.copy_components_by_regex {
     public class KDTree {
         class KDNode {
             public KDNode[] lr;

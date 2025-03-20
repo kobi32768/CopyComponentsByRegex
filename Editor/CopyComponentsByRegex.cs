@@ -1,4 +1,4 @@
-﻿namespace CopyComponentsByRegex {
+﻿namespace org.azuretek.copy_components_by_regex {
 	using System.Collections.Generic;
 	using System.Collections;
 	using System.Linq;
